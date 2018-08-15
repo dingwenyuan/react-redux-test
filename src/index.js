@@ -21,7 +21,7 @@ function App(props) {
 const renderIndex = () => {
   console.log("renderIndex");
   ReactDOM.render(
-    // <ul store={store}>{App()}</ul>,
+    // <ul store={store}>{App()}</ul> ,
     <Provider>
       <App store={store} />
     </Provider>,
